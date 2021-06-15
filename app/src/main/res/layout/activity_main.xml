@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="16sp"
+    tools:ignore="HardcodedText" >
+
+    <TextView android:id="@+id/tv_main_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16sp"
+        android:background="?attr/selectableItemBackground" />
+
+    <Button android:id="@+id/btn_main_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crash app 1"
+        android:layout_gravity="center"
+        android:layout_margin="16sp" />
+
+    <Button android:id="@+id/btn_main_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crash app 2"
+        android:layout_gravity="center"
+        android:layout_margin="16sp" />
+
+    <Button android:id="@+id/btn_main_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track info"
+        android:layout_gravity="center"
+        android:layout_margin="16sp" />
+</LinearLayout>
