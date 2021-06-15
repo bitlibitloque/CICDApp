@@ -21,8 +21,8 @@ Include CI/CD with [App Center](https://appcenter.ms/)
 
 ##### App Center Badges:
 main [![Build status](https://build.appcenter.ms/v0.1/apps/e8a616f9-882e-4daa-8eed-4eb4307099ea/branches/main/badge)](https://appcenter.ms)
-dev
-test
+dev  [![Build status](https://build.appcenter.ms/v0.1/apps/e8a616f9-882e-4daa-8eed-4eb4307099ea/branches/dev/badge)](https://appcenter.ms)
+test [![Build status](https://build.appcenter.ms/v0.1/apps/e8a616f9-882e-4daa-8eed-4eb4307099ea/branches/test/badge)](https://appcenter.ms)
 
 
 #### Use:
