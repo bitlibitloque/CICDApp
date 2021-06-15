@@ -11,7 +11,7 @@ This is an experimental - demo example of an ***Android App***, to play and lear
 Include CI with Github Actions in the file `.github/workflow/github-actions-android.yml`
 
 ##### Actions Badges:
-- main[![Testing Workflow](https://github.com/bitlibitloque/CICDApp/actions/workflows/github-actions-android.yml/badge.svg)](https://github.com/bitlibitloque/CICDApp/actions/workflows/github-actions-android.yml)
+- main [![Testing Workflow](https://github.com/bitlibitloque/CICDApp/actions/workflows/github-actions-android.yml/badge.svg)](https://github.com/bitlibitloque/CICDApp/actions/workflows/github-actions-android.yml)
 - dev
 - test
 
