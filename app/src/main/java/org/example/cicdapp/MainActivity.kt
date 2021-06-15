@@ -13,10 +13,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
     //TODO get your apiKey from https://appcenter.ms/
     // you only need register, is free
-    private val apyKey = "XXXXXXXX_GET_YOUR_API_KEY_XXXXXXXXX"
+    //private val apyKey = "XXXXXXXX_GET_YOUR_API_KEY_XXXXXXXXX"
+    private val apyKey = "7cca02ce-e827-4ea9-9b81-0554fa573d96"
 
-    //ALSO LOOK FO APP CENTER IN THE PROJECT
-    //
+    // also look for the word APP CENTER in the project, you have to change:
+	// build.gradle (project) Change gradle version to 4.1.1
+    // build.gradle (app) Add some dependencies
+	
     private var tvMainMsg: TextView? = null
     private var btnMain1: Button? = null
     private var btnMain2: Button? = null

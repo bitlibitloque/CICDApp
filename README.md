@@ -1,6 +1,6 @@
 ##### README
 
-This is an experimental - demo example of an Android App, to play and learn.
+This is an experimental - demo example of an ***Android App***, to play and learn.
 
 
 ## 1. CICDApp (Continuous Integration / Continuous Delivery App)
@@ -10,24 +10,20 @@ This is an experimental - demo example of an Android App, to play and learn.
 
 Include CI with Github Actions in the file `.github/workflow/github-actions-android.yml`
 
-Actions Badges:\
-- main:[![Testing Workflow](https://github.com/bitlibitloque/CICDApp/actions/workflows/github-actions-android.yml/badge.svg)](https://github.com/bitlibitloque/CICDApp/actions/workflows/github-actions-android.yml)
-- dev:
-- test:
+##### Actions Badges:
+- main[![Testing Workflow](https://github.com/bitlibitloque/CICDApp/actions/workflows/github-actions-android.yml/badge.svg)](https://github.com/bitlibitloque/CICDApp/actions/workflows/github-actions-android.yml)
+- dev
+- test
 
 #### App Center
 
 Include CI/CD with [App Center](https://appcenter.ms/)
 
-App Center Badges:\
-- main:
-- dev:
-- test:
+##### App Center Badges:
+main [![Build status](https://build.appcenter.ms/v0.1/apps/e8a616f9-882e-4daa-8eed-4eb4307099ea/branches/main/badge)](https://appcenter.ms)
+dev
+test
 
-#### Languages:
-
-* Java
-* Kotlin
 
 #### Use:
 
