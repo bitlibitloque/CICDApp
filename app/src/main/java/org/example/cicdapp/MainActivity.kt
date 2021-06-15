@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
     // you only need register, is free
     private val apyKey = "XXXXXXXX_GET_YOUR_API_KEY_XXXXXXXXX"
 
+    //ALSO LOOK FO APP CENTER IN THE PROJECT
+    //
     private var tvMainMsg: TextView? = null
     private var btnMain1: Button? = null
     private var btnMain2: Button? = null
