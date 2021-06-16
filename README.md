@@ -28,9 +28,9 @@ main [![Build status](https://build.appcenter.ms/v0.1/apps/e8a616f9-882e-4daa-8e
 The app use [Travis-ci](https://travis-ci.com/)
 
 #### Travis-ci Badges:
-dev https://travis-ci.com/bitlibitloque/CICDApp.svg?branch=dev
-test https://travis-ci.com/bitlibitloque/CICDApp.svg?branch=test
-main https://travis-ci.com/bitlibitloque/CICDApp.svg?branch=main
+dev [![Build Status](https://www.travis-ci.com/bitlibitloque/CICDApp.svg?branch=dev)](https://www.travis-ci.com/bitlibitloque/CICDApp)
+test [![Build Status](https://www.travis-ci.com/bitlibitloque/CICDApp.svg?branch=test)](https://www.travis-ci.com/bitlibitloque/CICDApp)
+main [![Build Status](https://www.travis-ci.com/bitlibitloque/CICDApp.svg?branch=main)](https://www.travis-ci.com/bitlibitloque/CICDApp)
 
 
 #### Use:
