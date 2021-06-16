@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CICDApp</string>
+    <string name="app_intro">App Center Example
+        \nThis activity is connected with App Center.
+        \nIf we click btn1 the app will crash.
+        \nIf we click btn2 the app will crash.
+        \nIf we click btn3 TextView will track info to App Center
+        \n\nAlso has a function  that will send a message if last session crash.</string>
 </resources>

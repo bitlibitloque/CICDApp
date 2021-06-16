@@ -13,30 +13,22 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
     //TODO get your apiKey from https://appcenter.ms/
     // you only need register, is free
+    // also look for the word APP CENTER in the project, you have to change:
+    // build.gradle (project)-> Change gradle version to 4.1.1
+    // build.gradle (app) ->Add some dependencies
     //private val apyKey = "XXXXXXXX_GET_YOUR_API_KEY_XXXXXXXXX"
     private val apyKey = "7cca02ce-e827-4ea9-9b81-0554fa573d96"
-
-    // also look for the word APP CENTER in the project, you have to change:
-	// build.gradle (project) Change gradle version to 4.1.1
-    // build.gradle (app) Add some dependencies
-	
     private var tvMainMsg: TextView? = null
     private var btnMain1: Button? = null
     private var btnMain2: Button? = null
     private var btnMain3: Button? = null
-    private var msg: String =  "App Center Example" +
-            "\nThis activity is connected with App Center." +
-            "\nIf we click btn1 the app will crash." +
-            "\nIf we click btn2 the app will crash." +
-            "\nIf we click btn3 TextView will track info to App Center" +
-            "\n\nAlso has a function  that will send a message if last session crash."
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         initUi()
-        showMsg(msg)
+        showMsg(resources.getString(R.string.app_intro))
 
         initAppCenter()
         showMsgIfAppCrashInLastSession()
