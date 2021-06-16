@@ -1,12 +1,16 @@
 name: Testing Workflow
 
-# Step 1: Choose the branch or branches you want to run this workflow
 on:
+  pull_request:
+    branches:
+      - dev
+      - test
+      - main
   push:
     branches:
-    - main
-    - test
-    - dev
+      - dev
+      - test
+      - main
 
 jobs:
     testing:
