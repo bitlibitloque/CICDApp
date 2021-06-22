@@ -1,5 +1,6 @@
 ##### README
 
+
 This is an experimental - demo example of an ***Android App***, to play and learn.
 
 ## 1. CICDApp (Continuous Integration / Continuous Delivery App)
